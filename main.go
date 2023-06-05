@@ -41,7 +41,7 @@ func main() {
 			&cli.StringFlag{
 				Name:    "log-format, l",
 				Usage:   "select logrus formatter ['json', 'text']",
-				Value:   "text",
+				Value:   "json",
 				EnvVars: []string{"LOG_FORMAT"},
 			},
 			&cli.StringFlag{
